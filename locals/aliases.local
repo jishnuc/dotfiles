@@ -1,0 +1,6 @@
+alias home="cd /mnt/c/Users/jhilam"
+alias code="cd /mnt/c/Users/jhilam/code"
+alias tn='_(){ tmux new-session -t $1; }; _ '
+alias tk='_(){ tmux kill-session -t $1; }; _ '
+alias ta='_(){ tmux attach-session -t $1; }; _ '
+alias tl='tmux ls'
